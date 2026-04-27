@@ -1,0 +1,107 @@
+% Target Configuration
+GeneralTarget
+%%%%%%%%%%%%%%%
+Target
+ Thickness= 1.5 um
+ Radius= 10 mm
+ Material= G4_Pb
+ Angle= 0 deg
+ X= 0 mm
+ Y= 0 mm
+ Z= 0 mm
+
+% AnnularS3 DelE-E Telescope Configuration
+% Detector 1
+AnnularS3
+ Z= 40 mm
+ RInner= 11 mm
+ ROuter= 35 mm
+ Thickness= 50 um
+
+% Detector 2
+AnnularS3
+ Z= 42 mm
+ RInner= 11 mm
+ ROuter= 35 mm
+ Thickness= 500 um
+
+% W1 Barrel Design Configuration
+% Detector 1(0 degree)
+W1
+ X1_Y1= 60.000 25.000 25.000 mm
+ X1_Y16= 60.000 -25.000 25.000 mm
+ X16_Y1= 60.000 25.000 -25.000 mm
+ X16_Y16= 60.000 -25.000 -25.000 mm
+ VIS= all
+
+% Detector 2(72)
+W1
+ X1_Y1= -5.235 64.788 25.000 mm
+ X1_Y16= 42.317 49.338 25.000 mm
+ X16_Y1= -5.235 64.788 -25.000 mm
+ X16_Y16= 42.317 49.338 -25.000 mm
+ VIS= all
+
+% Detector 3(144)
+W1
+ X1_Y1= -63.236 15.042 25.000 mm
+ X1_Y16= -33.846 55.492 25.000 mm
+ X16_Y1= -63.236 15.042 -25.000 mm
+ X16_Y16= -33.846 55.492 -25.000 mm
+ VIS= all
+
+% Detector 4(216)
+W1
+ X1_Y1= -33.846 -55.492 25.000 mm
+ X1_Y16= -63.236 -15.042 25.000 mm
+ X16_Y1= -33.846 -55.492 -25.000 mm
+ X16_Y16= -63.236 -15.042 -25.000 mm
+ VIS= all
+
+% Detector 5(288)
+W1
+ X1_Y1= 42.317 -49.338 25.000 mm
+ X1_Y16= -5.235 -64.788 25.000 mm
+ X16_Y1= 42.317 -49.338 -25.000 mm
+ X16_Y16= -5.235 -64.788 -25.000 mm
+ VIS= all
+
+% Detector 6(0)
+W1
+ X1_Y1= 62.000 25.000 25.000 mm
+ X1_Y16= 62.000 -25.000 25.000 mm
+ X16_Y1= 62.000 25.000 -25.000 mm
+ X16_Y16= 62.000 -25.000 -25.000 mm
+ VIS= all
+
+% Detector 7(72)
+W1
+ X1_Y1= -4.617 66.691 25.000 mm
+ X1_Y16= 42.935 51.240 25.000 mm
+ X16_Y1= -4.617 66.691 -25.000 mm
+ X16_Y16= 42.935 51.240 -25.000 mm
+ VIS= all
+
+% Detector 8(144)
+W1
+ X1_Y1= -64.854 16.217 25.000 mm
+ X1_Y16= -35.464 56.668 25.000 mm
+ X16_Y1= -64.854 16.217 -25.000 mm
+ X16_Y16= -35.464 56.668 -25.000 mm
+ VIS= all
+
+% Detector 9(216)
+W1
+ X1_Y1= -35.464 -56.668 25.000 mm
+ X1_Y16= -64.854 -16.217 25.000 mm
+ X16_Y1= -35.464 -56.668 -25.000 mm
+ X16_Y16= -64.854 -16.217 -25.000 mm
+ VIS= all
+
+% Detector 10(288)
+W1
+ X1_Y1= 42.935 -51.240 25.000 mm
+ X1_Y16= -4.617 -66.691 25.000 mm
+ X16_Y1= 42.935 -51.240 -25.000 mm
+ X16_Y16= -4.617 -66.691 -25.000 mm
+ VIS= all
